@@ -25,15 +25,18 @@ free rotation of the front wheel.
 3D printed to fit the motor attachment.
 
 ### Algorithm
-Designed using a simple, and most likely inefficient algorithm, to 
+Designed using a simple, and most likely inefficient, algorithm to 
 browse its surroundings in 45deg scan interval and determine the path 
 of least obstacles.
 
 ### Circuit
-- The circuit was relatively simple. The servo motor and DC Motors were 
-powered with an external power source, controlled via a Darlington 
-transistor array IC. A common ground was utilized between Arduino and 
-power source. See overview of circuit below. 
+- The DC Motors were powered with an external power source as the 
+Arduino cannot output the required current.
+- The motors were activated via a Darlington transistor array IC. 
+- A common ground was utilized between Arduino and power source. 
+
+See overview of circuit below. 
+
 ![circuit overview](circuit_overview.png)
 
 ### To use
@@ -43,4 +46,5 @@ shown.
 
 ### TODO
 - Design smarter algorithm with higher frequency scan interval
-
+- Switch Servo Motor to external power source to reduce current load on 
+sensitive arduino chip.
