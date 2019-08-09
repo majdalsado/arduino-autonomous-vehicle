@@ -38,7 +38,8 @@ power source. See overview of circuit below.
 
 ### To use
 Fork the repo, upload to Arduino, download .stl files and 3D 
-print, put together connect pins as indicated in code!
+print, connect pins as indicated in code following circuit design as 
+shown.
 
 ### TODO
 - Design smarter algorithm with higher frequency scan interval
