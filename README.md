@@ -14,14 +14,14 @@ of a 3D printer.
 - Lots of wiring
 
 ### Body
--The body was a simple design in AutoCAD with a Arduino UNO holder via 
+- The body was a simple design in AutoCAD with a Arduino UNO holder via 
 screw holes. 
--Other components were hot glued onto the polymer body.
--The design consisted of a three wheel system, two rear driving motors 
+- Other components were hot glued onto the polymer body.
+- The design consisted of a three wheel system, two rear driving motors 
 and a trolley wheel in the front.
--The trolley wheel was 3D printed and designed in such a way to allow 
+- The trolley wheel was 3D printed and designed in such a way to allow 
 free rotation of the front wheel.
--The sonar sensor was attached to the servo motor using a custom holder 
+- The sonar sensor was attached to the servo motor using a custom holder 
 3D printed to fit the motor attachment.
 
 ### Algorithm
