@@ -1,4 +1,4 @@
-## Arduino Autonomous Object-Avoiding Vehicle
+# Arduino Autonomous Object-Avoiding Vehicle
 Developed in C using Arduino platform, this was a project created for 
 learning purposes to get an insight into Arduino and to practice usage 
 of a 3D printer.
