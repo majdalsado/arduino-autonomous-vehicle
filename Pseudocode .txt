@@ -1,0 +1,48 @@
+directions:
+a - East
+b - North East
+c - North
+d - North West
+e - West
+
+1.
+
+set servo position to 90d
+
+2.
+
+measure distance
+
+3. 
+
+repeat step 2 for each direction (intervals of 45d) storing distance for each
+
+4.
+
+Check which direction had largest distance, set as smallest_distance
+
+5.
+
+if largest_distance < 4cm
+	activate reverse motors
+elif a then 
+	activate left motor
+	wait 2
+	activate right motor
+	wait 5
+	deactivate motors
+elif b then
+	activate left motor
+	wait 1
+	activate right motor
+	wait 5
+	deactivate motors
+elif c then
+	activate motors
+	wait 5
+	deactivate motors
+(continued.)
+
+
+
+
